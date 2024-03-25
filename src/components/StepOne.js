@@ -7,7 +7,6 @@ export default function StepOne() {
       "https://maps.app.goo.gl/MUSx4wBcFxw5Uat56";
   };
   const gotoParty = () => {
-    alert("El salón 4 está junto al 3");
     window.location.href =
       "https://maps.app.goo.gl/35ReFKkKwwjD8Fqt9";
   };
