@@ -16,14 +16,14 @@ code {
 }
 
 :root {
-  --first-color: #dbc685;
+  --first-color: #7fa598;
 }
 
 
 .title {
   font-family: 'Petit Formal Script', cursive;
   font-weight: 200;
-  font-size: 45px;
+  font-size: 35px;
   
   position: relative;
   padding: 0;

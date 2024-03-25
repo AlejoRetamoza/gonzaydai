@@ -1,6 +1,6 @@
 .step-three {
     margin-top: 15%;
-    background-color: #f7efd7;
+    background-color: #7fa59877;;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
   
   .step-three-confirm {
     color: var(--first-color);
-    background: url(../static/1.jpg) white;
+    background: url(../static/1.png) white;
     padding: 1em;
     display: flex;
     flex-direction: column;

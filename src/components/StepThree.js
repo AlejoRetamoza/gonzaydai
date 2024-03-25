@@ -6,7 +6,7 @@ export default function StepThree() {
 
   const safePath = require.context('../assets/static/', true);
 
-  const cvu = "0720043488000039263140";
+  const cvu = "28772522.PREX";
 
   const copyCVUToClipboard = () => {
     const input = document.createElement("input");
@@ -16,13 +16,9 @@ export default function StepThree() {
     document.execCommand("copy");
     document.body.removeChild(input);
     alert(
-      "CVU copiado, ya podes pegar el cvu en tu cuenta para transferir dinero!"
+      "Alias copiado, ya podes pegar el cvu en tu cuenta para transferir dinero!"
     );
   };
-  const gotoGiftList = () => {
-    alert('Elegí que te gustaria regalarnos y borralo de la lista!')
-    window.location.href = 'https://docs.google.com/spreadsheets/d/1HYgJ6NHI3-fwYaVHYbYXLdtzyMDCPUBgOJZYFNPlzkA/edit?usp=sharing'
-  }
 
   const sendConfirm = () => {
 
@@ -37,21 +33,14 @@ export default function StepThree() {
     <div className="card">
       <img src={safePath("./dresscode.png")} alt="" />
       <p>Dresscode:</p>
-      <h2>Elegante</h2>
-    </div>
-    <div className="card">
-      <img src={safePath("./gift.png")} alt="" />
-      <p>Si deseas hacernos un regalo</p>
-      <button className="primary-button" onClick={gotoGiftList}>
-        Ver lista
-      </button>
+      <h2>Elegante/Sport</h2>
     </div>
     <div className="card">
     <img src={safePath("./cbu.png")} alt="" />
-      <h3>Si deseas colaborar con nuestra luna de miel</h3>
-      <p>Alias: camila.pedrucci</p>
+      <h3>Si deseas hacernos un regalo</h3>
+      <p>Alias: 28772522.PREX</p>
       <button className="primary-button" onClick={copyCVUToClipboard}>
-        Copiar CBU
+        Copiar Alias
       </button>
     </div>
     <div className="step-three-confirm">
